@@ -1,0 +1,17 @@
+spoke_subscription_id = "4cdde026-a1dc-48ef-98be-b48892c3f96d"
+spoke_resource_group 	= "agrid-01-d1-tenant-rg-001"
+spn_object_id 				= "30ebb193-c3f4-43cb-8357-e4049d95c6c1"
+akv_name 							= "agd-01-c001-d1-001-kv"
+akv_pep_name 					= "agd01c001d1001kvpep"
+akv_psc_name 					= "agd01c001d1001kvpeppsc"
+# DONOT Change these values and they are environment specific for Alpha SBX
+pep_snet_name        	= "agrid-01-d1-acn-snet-pep-001"
+vnet_name            	= "agrid-01-d1-spk-crd-vnet-001"
+vnet_rg_name         	= "agrid-01-d1-spk-crd-rg-001"
+hub_sr_rg 						= "agrid-01-d1-hub-sr-rg-001"
+hub_subscription_id 	= "a786eb34-3c9e-4875-a35b-d91487d59d5c"
+hub_kv_pdns 					= "privatelink.vaultcore.azure.net"
+law_subscription_id 	= "3ee16415-b4d5-4e55-af45-6ab5d8bf5a71"
+core_law_name       	= "core-01-p0-law-000"
+core_law_rg         	= "core-01-p0-sr-law-rg-001"
+virtual_network_subnet_ids = ["/subscriptions/4cdde026-a1dc-48ef-98be-b48892c3f96d/resourceGroups/agrid-01-d1-spk-crd-rg-001/providers/Microsoft.Network/virtualNetworks/agrid-01-d1-spk-crd-vnet-001/subnets/agrid-01-d1-snet-aks-001"]
